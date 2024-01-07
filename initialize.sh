@@ -15,9 +15,9 @@ else
     echo "apt is already installed."
 fi
 
-# Install zsh, figlet, and toilet
-echo "Installing zsh, figlet, and toilet..."
-apt-get install -y zsh figlet toilet
+# Install zsh, figlet, toilet, Python 3, pip, seclists, dnsrecon, enum4linux, feroxbuster, impacket-scripts, redis-tools, snmpwalk, tnscmd10g, wkhtmltopdf
+echo "Installing zsh, figlet, toilet, Python 3, pip, seclists, dnsrecon, enum4linux, feroxbuster, impacket-scripts, redis-tools, snmpwalk, tnscmd10g, wkhtmltopdf..."
+apt-get install -y apt-get install -y zsh figlet toilet python3 python3-pip seclists dnsrecon enum4linux feroxbuster impacket-scripts redis-tools snmp walk tnscmd10g wkhtmltopdf
 
 # Additional configurations or commands can be added here
 
